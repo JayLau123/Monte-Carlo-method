@@ -10,7 +10,9 @@ MC can be used to solve any problem having a probabilistic interpretation. By th
 optimization, numerical integration, deterministic mathematical problems, and probabilistic problems(diffusion of neutrons).
 
 
+### Buffon's needle problem
 
+<img width="400" alt="Buffon's needle problem" src="https://user-images.githubusercontent.com/98719524/218281819-26e74e6c-05dd-4949-b39a-654f6a735a27.png">
 
 
 

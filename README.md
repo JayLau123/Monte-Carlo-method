@@ -29,15 +29,12 @@ $\lambda$ is related to the condidence level $1-\alpha$
 
 
 
-
-
-
 ### Buffon's needle problem
 
 <img width="400" alt="Buffon's needle problem" src="https://user-images.githubusercontent.com/98719524/218281819-26e74e6c-05dd-4949-b39a-654f6a735a27.png">
 
 
-
+To be continued...
 
 
 

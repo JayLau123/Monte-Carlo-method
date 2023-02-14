@@ -10,21 +10,28 @@ MC can be used to solve any problem having a probabilistic interpretation. By th
 optimization, numerical integration, deterministic mathematical problems, and probabilistic problems(diffusion of neutrons).
 
 
+#### The application of MC in experimental particle physics
+
+The probability of some physical process such as proton decay is very small, and the detection efficiency is low while the experiment cost is very high.
+As a result, we may use other method to simulate the process and find a reliable numerical solution.
+
+![1](https://user-images.githubusercontent.com/98719524/218607165-b15ad551-11cc-4acb-bd28-fdc3e792e84d.png)
+
+
+The real system is the nature, we can do any measurement to get the results. But considering the measurements sometimes are very difficult and inefficient, we can establish an approximate model with numerical method and baisc theories, then 
+
+
+
+
 ## Error analysis in MC
 
 In practice, many random variables $Y$ are consisted of other random subvariables $X_k$, each single random subvariable plays a insignificant role in the total influence. Such random variable $Y$ has normal distribution approximately. Here, we use the most popular iid CLT.
-
-#### Attached please find more details in Error analysis in MC.ipynb
-
-
 
 The error of MC is defined as:
 
 $$\epsilon= \dfrac{\sigma \times \lambda}{\sqrt{N}}$$
 
-$\lambda$ is related to the condidence level $1-\alpha$ 
-
-
+#### Attached please find more details in Error analysis in MC.ipynb
 
 
 

@@ -18,7 +18,7 @@ As a result, we may use other method to simulate the process and find a reliable
 ![1](https://user-images.githubusercontent.com/98719524/218607165-b15ad551-11cc-4acb-bd28-fdc3e792e84d.png)
 
 
-The real system is the nature, we can do any measurement to get the results. But considering the measurements sometimes are very difficult and inefficient, we can establish an approximate model with numerical method and baisc theories, then 
+The real system is the nature, we can perform any measurements to get the results. But considering the measurements sometimes are very difficult and inefficient, we can establish an approximate model with numerical method and baisc theories, then leaverage on computing techniques and cloud computational resources to solve the questions. 
 
 
 

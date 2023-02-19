@@ -31,7 +31,7 @@ The error of MC is defined as:
 
 $$\epsilon= \dfrac{\sigma \times \lambda}{\sqrt{N}}$$
 
-#### Attached please find more details in Error analysis in MC.ipynb
+#### Please find more details in Error analysis in MC.ipynb
 
 
 

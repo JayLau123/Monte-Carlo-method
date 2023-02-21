@@ -31,7 +31,7 @@ The error of MC is defined as:
 
 $$\epsilon= \dfrac{\sigma \times \lambda}{\sqrt{N}}$$
 
-we can reduce the error by increasing the number of samples $N$, and more efficiently, choose some variable that has smaller variance $sigma$. Besides, we can also use the convergence and confidence interval to estimate how many experiment times or how many sample we need to achieve a certain accuracy.
+we can reduce the error by increasing the number of samples $N$, and more efficiently, choose some variable that has smaller variance $\sigma$. Besides, we can also use the convergence and confidence interval to estimate how many experiment times or how many sample we need to achieve a certain accuracy.
 
 
 #### Please find more details in Error analysis in MC.ipynb

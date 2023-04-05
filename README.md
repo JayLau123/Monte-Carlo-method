@@ -21,8 +21,6 @@ As a result, we may use other method to simulate the process and find a reliable
 The real system is the nature, we can perform any measurements to get the results. But considering the measurements sometimes are very difficult and inefficient, we can establish an approximate model with numerical method and baisc theories, then leaverage on computing techniques and cloud computational resources to solve the question. 
 
 
-
-
 ## Error analysis in MC
 
 In practice, many random variables $Y$ are consisted of other random subvariables $X_k$, each single random subvariable plays a insignificant role in the total influence. Such random variable $Y$ has normal distribution approximately. Here, we use the most popular iid CLT.
@@ -37,14 +35,18 @@ we can reduce the error by increasing the number of samples $N$, and more effici
 #### Please find more details in Error analysis in MC.ipynb
 
 
-
-
 ### Buffon's needle problem
 
 <img width="400" alt="Buffon's needle problem" src="https://user-images.githubusercontent.com/98719524/218281819-26e74e6c-05dd-4949-b39a-654f6a735a27.png">
 
+### numerical integration 
 
-To be continued...
+A method used in numerical analysis to calculate the definite integral of a function. It involves approximating the area under the curve of a function by dividing it into small subintervals and using numerical techniques to compute the approximate value of the integral. There are various numerical integration techniques like rectangular rule, trapezoidal rule, Simpson’s rule, Monte Carlo integratio
+
+
+### Monte Carlo Tree Search (MCTS)
+
+A search algorithm used in decision-making tasks, particularly in games such as chess, Go, and poker. It is a heuristic algorithm that builds a search tree by traversing the tree repeatedly and selecting promising nodes that have not been explored before. The algorithm uses Monte Carlo simulations to estimate the value of each selected node and updates the estimated values of other nodes in the tree based on the simulation results.
 
 
 

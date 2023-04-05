@@ -58,7 +58,7 @@ The stop condition can be after 1 hour, after 1 million self-games, if the numbe
 
 How to define the selection strategy? 
 
-$UCT=\dfrac{Q_i}{N_i}+C\sqrt{\dfrac{ln(T)}{N_i}}$
+$$UCT=\dfrac{Q_i}{N_i}+C\sqrt{\dfrac{ln(T)}{N_i}}$$
 
 Winning percentage, $WP=\dfrac{Q_i}{N_i}$
 

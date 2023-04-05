@@ -43,8 +43,6 @@ we can reduce the error by increasing the number of samples $N$, and more effici
 
 A method used in numerical analysis to calculate the definite integral of a function. It involves approximating the area under the curve of a function by dividing it into small subintervals and using numerical techniques to compute the approximate value of the integral. There are various numerical integration techniques like rectangular rule, trapezoidal rule, Simpson’s rule, Monte Carlo integratio
 
-![IMG_3213](https://user-images.githubusercontent.com/98719524/230137442-ded9d2d7-8a70-4699-9424-f70657723723.jpg)
-
 
 
 ### Monte Carlo Tree Search (MCTS)
@@ -72,7 +70,7 @@ where $Q_i$ is the number of times $i$th node wins, $N_i$ is the number of visit
 As the number of visits increases, the value of the second item becomes increasingly smaller. $UCT$ tends to choose those nodes that have not been visited many times to avoid the problem of high winning percentage and low confidence rate. The self-game process is repeated continuously, and each time the node with the highest value of $UCT$ is selected. After repeating many times, the node with the highest number of visits is the best node.
 
 
-
+### Estimate unknown distribution, unknown model parameters
 
 
 

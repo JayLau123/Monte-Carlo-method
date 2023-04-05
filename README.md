@@ -58,9 +58,11 @@ The stop condition can be after 1 hour, after 1 million self-games, if the numbe
 
 How to define the selection strategy? 
 
+Upper Confidence Bound applied to Trees (UCT) is an extension of the original MCTS algorithm that has been widely used in game AI. UCT selects a node to expand based on a combination of the exploitation of the known results so far and the exploration of the unknown options. This balance between exploration and exploitation is achieved by using a UCB1 formula.
+
 $$UCT=\dfrac{Q_i}{N_i}+C\sqrt{\dfrac{ln(T)}{N_i}}$$
 
-Winning percentage, $WP=\dfrac{Q_i}{N_i}$
+The first term is winning percentage $WP=\dfrac{Q_i}{N_i}$
 
 where $Q_i$ is the number of times $i$th node wins, $N_i$ is the number of visits to the $i$th node, $C$ is a constant used to adjust the weight of the game times, and $T$ is the total number of visits. 
 

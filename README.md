@@ -47,6 +47,8 @@ A method used in numerical analysis to calculate the definite integral of a func
 
 ### Monte Carlo Tree Search (MCTS)
 
+https://www.baeldung.com/java-monte-carlo-tree-search
+
 A search algorithm used in decision-making tasks, particularly in games such as chess, Go, and poker. It is a heuristic algorithm that builds a search tree by traversing the tree repeatedly and selecting promising nodes that have not been explored before. The algorithm uses Monte Carlo simulations to estimate the value of each selected node and updates the estimated values of other nodes in the tree based on the simulation results.
 
 For example, we can use a game tree to represent a game. Each node of the game tree represents a state, and the set of the next state constitutes the next node of the state. For example, any chessboard situation is a state, and all possible moves under the state are formed the next states. The collection of new situations constitutes the next nodes of the state. If it is a simple game, the optimal solution can be obtained according to the exhaustive results. But for complex games, such as Go, the number of states is more than the total number of atoms in the observable universe, and no computer can do such an exhaustive enumeration.

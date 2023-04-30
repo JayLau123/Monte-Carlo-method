@@ -71,11 +71,9 @@ where $Q_i$ is the number of times $i$th node wins, $N_i$ is the number of visit
 
 As the number of visits increases, the value of the second item becomes increasingly smaller. $UCT$ tends to choose those nodes that have not been visited many times to avoid the problem of high winning percentage and low confidence rate. The self-game process is repeated continuously, and each time the node with the highest value of $UCT$ is selected. After repeating many times, the node with the highest number of visits is the best node.
 
-### Random number
+## Random number
 
 In practical applications, randomness is an essential and basic demand for almost all MC. It is also used in network security to encrypt data and communication, and to perform simulation analysis in many fields. The simplest understanding, such as game lottery, requires good randomness to ensure its fairness. We may use quantum computer to generate quantum random number.
-
-### Estimate unknown distribution, unknown model parameters
 
 
 

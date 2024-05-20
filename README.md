@@ -41,8 +41,7 @@ we can reduce the error by increasing the number of samples $N$, and more effici
 
 ### numerical integration 
 
-A method used in numerical analysis to calculate the definite integral of a function. It involves approximating the area under the curve of a function by dividing it into small subintervals and using numerical techniques to compute the approximate value of the integral. There are various numerical integration techniques like rectangular rule, trapezoidal rule, Simpson’s rule, Monte Carlo integratio
-
+A method used in numerical analysis to calculate the definite integral of a function. It involves approximating the area under the curve of a function by dividing it into small subintervals and using numerical techniques to compute the approximate value of the integral. There are various numerical integration techniques like rectangular rule, trapezoidal rule, Simpson’s rule, etc.
 
 
 ### Monte Carlo Tree Search (MCTS)
